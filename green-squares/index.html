@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>c0rb0c4l - The green squares</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/green_squares.css">
+</head>
+
+<body>
+
+    <h2>The green squares !</h2>
+    <h3>Pour gagner, Vous devez faire en sorte que la grille soit uniformément colorée en vert.</h3>
+    <h3>Générez une grille de la taille souhaitée et bon courage :).</h3>
+
+    <h2 onchange="handleScoreChange()">
+        <div id="js-score-size">Score <span id="js-grid-size"></span></div>
+        <div id="js-display-score"></div>
+        <div id="js-message"></div>
+    </h2>
+
+    <div class="app-select-size">
+        <div id="js-select-size"> Taille de la grille : </div>
+    </div>
+
+    <div id="js-table">
+    </div>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
