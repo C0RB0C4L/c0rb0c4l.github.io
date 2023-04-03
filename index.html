@@ -15,7 +15,7 @@
 <body class="bg-dark bg-opacity-75 pt-5 mh-100">
 
   <header>
-    <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark py-2 mb-5">
+    <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark py-2 mb-5 border-bottom">
       <div class="container">
 
         <a class="navbar-brand py-0" href="/">
@@ -32,7 +32,7 @@
               </a>
               <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="collectionDropdown">
                 <li>
-                  <a class="dropdown-item" href="who-am-i.html">Who am I ?</a>
+                  <a class="dropdown-item" href="/who-am-i.html">Who am I ?</a>
                 </li>
               </ul>
             </li>
@@ -48,13 +48,36 @@
     <div class="container pt-5">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
 
+        <!-- js url splitter -->
+        <div class="col py-3">
+          <div class="card bg-dark border-0 mb-4 rounded-3 shadow-sm text-white-50 h-100 ">
+
+            <div class="card-header py-2">
+              <h5 class="text-center my-0">URL splitter</h5>
+            </div>
+
+            <div class="position-relative">
+              <img src="/assets/img/url.jpg" class="rounded-0 card-img-top" alt="..." height="278">
+              <a class="stretched-link" href="splitter/index.html"></a>
+            </div>
+
+            <div class="card-body d-flex flex-column justify-content-between">
+              <p class="card-text">A simple utility I use to split an URL into each of its parameters.</p>
+              <div class="d-flex justify-content-end align-items-center">
+                <a class="btn btn-sm btn-outline-secondary" href="splitter/index.html" target="_blank"
+                  role="button">View</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
 
         <!-- symfo/php/js stuff -->
         <div class="col py-3">
           <div class="card bg-dark border-0 mb-4 rounded-3 shadow-sm text-white-50 h-100 ">
 
             <div class="card-header py-2">
-              <h6 class="text-center my-0">Symfony / PHP / JS utilities</h5>
+              <h5 class="text-center my-0">Symfony / PHP / JS utilities</h5>
             </div>
 
             <div class="position-relative">
@@ -66,7 +89,8 @@
               <p class="card-text">A few utilities I created and still use here and there. May contain some code taken
                 from stackoverflow &#128064;</p>
               <div class="d-flex justify-content-end align-items-center">
-                <a class="btn btn-sm btn-outline-secondary" href="https://github.com/C0RB0C4L/utilities" target="_blank" role="button">View</a>
+                <a class="btn btn-sm btn-outline-secondary" href="https://github.com/C0RB0C4L/utilities" target="_blank"
+                  role="button">View</a>
               </div>
             </div>
 
@@ -79,7 +103,7 @@
           <div class="card bg-dark border-0 mb-4 rounded-3 shadow-sm text-white-50 h-100 ">
 
             <div class="card-header py-2">
-              <h6 class="text-center my-0">Unamed RPG stuff</h5>
+              <h5 class="text-center my-0">Unamed RPG stuff</h5>
             </div>
 
             <div class="position-relative">
@@ -88,7 +112,7 @@
             </div>
 
             <div class="card-body d-flex flex-column justify-content-between">
-              <p class="card-text">An attempt at object-oriented javascript and css practice.</p>
+              <p class="card-text">An attempt at object-oriented javascript and css practice. Delivered "as is".</p>
               <div class="d-flex justify-content-end align-items-center">
                 <a class="btn btn-sm btn-outline-secondary" href="rpg/index.html" role="button">View</a>
               </div>
@@ -103,7 +127,7 @@
           <div class="card bg-dark border-0 mb-4 rounded-3 shadow-sm text-white-50 h-100 ">
 
             <div class="card-header py-2">
-              <h6 class="text-center my-0">The green squares</h5>
+              <h5 class="text-center my-0">The green squares</h5>
             </div>
 
             <div class="position-relative">
